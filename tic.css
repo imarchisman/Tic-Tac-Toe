@@ -1,0 +1,175 @@
+
+*{ 
+	margin:0;
+    padding:0;
+    
+}
+body{
+    background-color: rgb(164, 233, 250);
+}
+
+
+.butn{
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    box-shadow: rgb(2, 2, 2) 0px 5px 10px;
+}
+
+.butn:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.butn:active{
+    background-color: rgb(27, 27, 27);
+    color: white;
+}
+
+
+#btn{
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    gap: 100px;
+    display: flex;
+}
+
+#restart{
+    margin-left: 120px;
+    background-color: rgb(255, 66, 66);
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 50px;
+    width: 120px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+#restart:hover{
+    cursor: pointer;
+    background-color: rgb(133, 0, 0);
+    color: white;
+}
+#restart:active{
+    background-color: rgb(248, 102, 102);
+}
+
+
+h1{
+    /* margin-bottom: 500px; */
+ 
+    text-align: center;
+    font-size: 50px;
+}
+.centeer{
+    gap: 50px;
+   
+    height: 500px;
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+  
+}
+.main{
+    padding: 50px;
+    height: 270px;
+    width: 270px;
+    /* background: green; */
+    position: relative;
+    /* border: 5px solid black; */
+}
+.tic0{
+    height: 80px;
+    width: 80px;
+   
+    /* background-image: url('o.png'); */
+    background-repeat: no-repeat;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    object-fit: cover;
+    background-color: rgb(164, 233, 250);
+    background-size:80px 80px;
+    float: left;
+}
+
+.tic1{
+    height: 80px;
+    width: 80px;
+    background: rgb(164, 233, 250);
+    background-size:80px 80px;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    float: left;
+}
+.tic2{
+    height: 80px;
+    width: 80px;
+    background: rgb(164, 233, 250);
+    border-left: 6px solid black;
+    border-bottom: 5px solid black;
+    float: left;
+    background-size:80px 80px;
+}
+.tic3{
+    height: 80px;
+    width: 80px;
+    background: rgb(164, 233, 250);
+    border-top: 5px solid black;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    float: left;
+    background-size:80px 80px;
+}
+.tic4{
+    height: 80px;
+    width: 80px;
+    background: rgb(164, 233, 250);
+    border: 5px solid black;
+    float: left;
+    background-size:80px 80px;
+}
+.tic5{
+    height: 80px;
+    width: 80px;
+    background: rgb(164, 233, 250);
+    border-left: 6px solid black;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    float: left;
+    background-size:80px 80px;
+}
+.tic6{
+    height: 80px;
+    width: 80px;
+    background: rgb(164, 233, 250);
+    border-top: 6px solid black;
+    border-right: 5px solid black;
+    float: left;
+    background-size:80px 80px;
+}
+.tic7{
+    height: 80px;
+    width: 80px;
+    background: rgb(164, 233, 250);
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    border-top: 6px solid black;
+    float: left;
+    background-size:80px 80px;
+    
+}
+.tic8{
+    height: 80px;
+    width: 80px;
+    background: rgb(164, 233, 250);
+    border-top: 6px solid black;
+    border-left: 6px solid black;
+    float: left;
+    background-size:80px 80px;
+    background-repeat: no-repeat;
+}
